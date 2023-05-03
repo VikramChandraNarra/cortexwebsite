@@ -1,0 +1,37 @@
+.App,
+.Headings {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  font-family: "Inter", sans-serif;
+}
+.App {
+  height: 100vh;
+  overflow-x: hidden;
+  justify-content: center;
+}
+.App * {
+  margin: 0;
+}
+.Scans-Image-1 {
+  width: 100%;
+  height: 100vh;
+  opacity: 0.95;
+}
+.Headings {
+  position: absolute;
+  top: 20%;
+  width: 100%;
+  color: white;
+  text-align: center;
+}
+.Main-Heading {
+  width: 47%;
+  font-size: 3rem;
+  font-weight: 600;
+}
+.Sub-Heading {
+  font-size: 1.5rem;
+  font-weight: 300;
+  width: 50%;
+}
