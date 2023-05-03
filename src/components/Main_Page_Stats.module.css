@@ -1,0 +1,10 @@
+.Stats-Div {
+  position: fixed;
+  bottom: 0;
+  width: 100%;
+  background-color: white;
+  height: 12rem;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}

@@ -1,0 +1,55 @@
+.NavBar {
+  position: fixed;
+  top: 0;
+  width: 100%;
+  background-color: white;
+  height: 4.7rem;
+  z-index: 2147483647;
+}
+
+.NavBar,
+.Cortex-Logo-Name,
+.Left-NavBar-Div {
+  display: flex;
+  align-items: center;
+  font-weight: 500;
+  font-size: 1.4rem;
+}
+
+.NavBar-Test-Button {
+  position: absolute;
+  right: 8%;
+  width: 12rem;
+  height: 2.5rem;
+  font-size: 1.2rem;
+  color: white;
+  border-radius: 1rem;
+  background-color: black;
+  border: none;
+  cursor: pointer;
+  transition: 0.16s;
+}
+.NavBar-Test-Button:hover {
+  color: black;
+  background-color: white;
+  border: 2px solid black;
+  transition: 0.16s;
+}
+.Left-NavBar-Div {
+  position: absolute;
+  left: 0;
+  width: 40%;
+  justify-content: space-around;
+}
+.Cortex-Logo-Name {
+}
+
+.Cerebral-Cortex {
+  height: 3.2rem;
+  margin: 1rem;
+}
+
+.NavBar a {
+  text-decoration: none;
+  color: inherit;
+}
