@@ -124,7 +124,7 @@
   border: none;
   box-shadow: 0 0 0.8rem #ffff00;
 }
-@media only screen and (max-width: 600px) {
+@media only screen and (max-width: 480px) {
   .Bottom-Page {
     position:absolute;
     width: 100%;
@@ -182,5 +182,20 @@
     height: 20rem;
     width: 100%;
     opacity: 0.3;
+  }
+}
+@media only screen and (max-width: 1024px) and (min-width: 481px) {
+  .Bottom-Page {
+    position:absolute;
+    width: 100%;
+    top: 100%;
+    font-family: "Inter", sans-serif;
+    background-color: #f7f3f3;
+  }
+  .Bottom-Page-Lower {
+    left: 1rem;
+  }
+  .Lower-Right p {
+    display: none;
   }
 }

@@ -12,6 +12,7 @@
 .Left-NavBar-Div {
   display: flex;
   align-items: center;
+  justify-content: space-around;
   font-weight: 500;
   font-size: 1.4rem;
 }
@@ -52,7 +53,7 @@
   color: inherit;
 }
 
-@media only screen and (max-width: 600px) {
+@media only screen and (max-width: 480px) {
   .NavBar-Test-Button {
     position: absolute;
     right: 2%;
@@ -78,5 +79,14 @@
   }
   .NavBar p {
     display: none;
+  }
+}
+
+@media only screen and (max-width: 1024px) and (min-width: 481px) {
+  .Left-NavBar-Div {
+    position: absolute;
+    left: 2%;
+    width: 60%;
+    justify-content: space-around;
   }
 }
