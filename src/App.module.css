@@ -1,3 +1,7 @@
+.App * {
+  margin: 0;
+  padding: 0;
+}
 .App,
 .Headings {
   display: flex;
@@ -6,7 +10,6 @@
   font-family: "Inter", sans-serif;
 }
 .App {
-  height: 100vh;
   overflow-x: hidden;
   justify-content: center;
 }
