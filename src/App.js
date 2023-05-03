@@ -45,13 +45,12 @@ function App() {
 
       const documentData = {
         time: currentDate,
-        referrer: `${document.referrer ? document.referrer : 'User came directly to the Cortex Website'}`
+        referrer: `${document.referrer ? document.referrer : 'User came directly to the Cortex Website'}`,
+        latitude: latitude,
+        longitude: longitude,
       };
 
-      if (latitude !== '' && longitude !== '') {
-        documentData.latitude = latitude;
-        documentData.longitude = longitude;
-      }
+
       if (browserInfo) {
         for (const key in browserFeatures) {
           if (browserFeatures.hasOwnProperty(key)) {
