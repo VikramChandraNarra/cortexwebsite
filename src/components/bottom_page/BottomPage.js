@@ -19,7 +19,7 @@ function BottomPage() {
                 <button className={styles['Bottom-Page-Button']}>Take the Test</button>
                 <div className={styles['Lower-Lower']}>
                     <div className={styles['Lower-Left']}>
-                        <img className={styles['Lower-Left-Cortex']} src={cortexImage}></img><p className={styles['Lower-Left-Cortex-Name']}>CORTEX</p><p class={styles['Lower-Left-Copyrights']}>Copyright © Event-u All rights reserved</p>
+                        <img className={styles['Lower-Left-Cortex']} src={cortexImage}></img><p className={styles['Lower-Left-Cortex-Name']}>CORTEX</p><p className={styles['Lower-Left-Copyrights']}>Copyright © Event-u All rights reserved</p>
                     </div>
                     <div className={styles['Lower-Right']}>
                         <p className={styles['Option']}>Features</p>
