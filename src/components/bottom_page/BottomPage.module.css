@@ -1,0 +1,123 @@
+.Bottom-Page {
+  margin-top: 1rem;
+  width: 100%;
+  font-family: "Inter", sans-serif;
+  background-color: #f7f3f3;
+}
+.Bottom-Page-Upper {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-between;
+  width: 100%;
+}
+.Bottom-Page-Upper-Left {
+  display: flex;
+  flex-direction: column;
+  margin-left: 10%;
+  width: 50%;
+  gap: 0.5rem;
+}
+.Sub-Top-Title {
+  font-size: 1.28rem;
+  font-weight: 500;
+}
+.Bottom-Page-Upper-Title {
+  font-size: 3rem;
+  font-weight: 600;
+  width: 80%;
+}
+.Sub-Title {
+  width: 85%;
+  font-size: 1.8rem;
+}
+.Explore-Link {
+  font-size: 1.1rem;
+  text-decoration: underline;
+  cursor: pointer;
+}
+.Scans-Image-Two {
+  height: 40rem;
+}
+.Bottom-Page-Lower {
+  padding-top: 3rem;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  background-color: white;
+  gap: 2rem;
+}
+.Bottom-Page-Lower-Title {
+  font-size: 2.5rem;
+  text-align: center;
+  width: 40%;
+  font-weight: 600;
+}
+.Bottom-Page-Button {
+  width: 12rem;
+  height: 2.5rem;
+  font-size: 1.2rem;
+  color: white;
+  border-radius: 1rem;
+  background-color: black;
+  border: none;
+  cursor: pointer;
+  transition: 0.16s;
+}
+.Bottom-Page-Button:hover {
+  color: black;
+  background-color: white;
+  border: 2px solid black;
+  transition: 0.16s;
+}
+.Lower-Lower {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+  width: 100%;
+  height: 8rem;
+}
+.Lower-Left,
+.Lower-Right {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  gap: 1rem;
+  width: 50%;
+}
+.Lower-Right {
+  justify-content: flex-end;
+  padding-right: 1rem;
+}
+.Lower-Left-Cortex {
+  height: 3.2rem;
+}
+.Lower-Left-Cortex-Name {
+  font-size: 1.5rem;
+  font-weight: 500;
+}
+.Lower-Left-Copyrights {
+  font-size: 1rem;
+  width: 10rem;
+  color: grey;
+  margin-left: 4rem;
+}
+.Option {
+  font-size: 0.8rem;
+}
+.Comezar {
+  height: 3rem;
+  width: 10rem;
+  background-color: black;
+  border-radius: 0.8em;
+  color: #ffff00;
+  font-size: 1.2rem;
+  font-weight: 800;
+  letter-spacing: 0.08rem;
+  cursor: pointer;
+  border: none;
+  box-shadow: 0 0 0.8rem #ffff00;
+}
