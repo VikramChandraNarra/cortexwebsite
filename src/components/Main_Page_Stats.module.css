@@ -1,6 +1,6 @@
 .Stats-Div {
-  position: fixed;
-  bottom: 0;
+  position: absolute;
+  top: 75%;
   width: 100%;
   background-color: white;
   height: 12rem;
