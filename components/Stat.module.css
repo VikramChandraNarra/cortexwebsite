@@ -1,0 +1,40 @@
+.Stat {
+  position: relative;
+  opacity: 0;
+  transform: translateY(1rem);
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  height: 100%;
+  width: 25%;
+  font-weight: 700;
+  font-size: 3rem;
+  color: black;
+  text-align: center;
+}
+@keyframes fadeInAndUp {
+  0% {
+    opacity: 0;
+    transform: translateY(1rem);
+  }
+  100% {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}
+
+.Animate {
+  animation: fadeInAndUp 0.5s forwards;
+}
+.Stat-Number {
+  font-weight: 700;
+  font-size: 3rem;
+}
+.Stat-Upper {
+  display: flex;
+  flex-direction: row;
+}
+.Stat-Lower {
+  font-size: 1.2rem;
+}
