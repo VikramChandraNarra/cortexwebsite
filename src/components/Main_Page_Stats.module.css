@@ -3,8 +3,67 @@
   top: 75%;
   width: 100%;
   background-color: white;
-  height: 12rem;
   display: flex;
   justify-content: center;
   align-items: center;
+}
+@media only screen and (min-width: 1000px) {
+  .Stats-Div-PC {
+    position: absolute;
+    top: 75%;
+    width: 100%;
+    background-color: white;
+    height: 12rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  .Stats-Div-Mobile {
+    display: none;
+  }
+}
+@media only screen and (max-width: 600px) {
+  .Stats-Div {
+    position: absolute;
+    top: 50%;
+    width: 100%;
+    background-color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  .Stats-Div-PC {
+    display: none;
+  }
+  .Stats-Div-Mobile {
+    position: absolute;
+    width: 100%;
+    height: 50%;
+    background-color: white;
+    top: 50%;
+    height: 12rem;
+    display:flex;
+    justify-content: space-around;
+    align-items:center;
+  }
+  .Stats-Div-Mobile-Upper {
+    position: absolute;
+    width: 100%;
+    background-color: white;
+    top: 40%;
+    height: 25%;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+  }
+  .Stats-Div-Mobile-Lower {
+    position: absolute;
+    width: 100%;
+    background-color: white;
+    top: 140%;
+    height: 25%;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+  }
 }

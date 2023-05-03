@@ -38,3 +38,25 @@
   font-weight: 300;
   width: 50%;
 }
+@media only screen and (max-width: 600px) {
+  .Scans-Image-1 {
+    width: 100%;
+    height: 50vh;
+    opacity: 0.95;
+  }
+  .Headings {
+    position: absolute;
+    top: 15%;
+    width: 100%;
+    color: white;
+    text-align: center;
+  }
+  .Main-Heading {
+    width: 90%;
+    font-size: 2rem;
+    font-weight: 500;
+  }
+  .Sub-Heading {
+    display: none;
+  }
+}

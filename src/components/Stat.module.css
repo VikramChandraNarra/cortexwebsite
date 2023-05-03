@@ -38,3 +38,32 @@
 .Stat-Lower {
   font-size: 1.2rem;
 }
+
+@media only screen and (max-width: 600px) {
+  .Stat {
+    position: relative;
+    opacity: 0;
+    transform: translateY(1rem);
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 100%;
+    width: 25%;
+    font-weight: 600;
+    font-size: 2rem;
+    color: black;
+    text-align: center;
+  }
+  .Stat-Number {
+    font-weight: 700;
+    font-size: 2rem;
+  }
+  .Stat-Upper {
+    display: flex;
+    flex-direction: row;
+  }
+  .Stat-Lower {
+    font-size: 1rem;
+  }
+}
