@@ -38,3 +38,79 @@
   font-weight: 300;
   width: 50%;
 }
+
+.Second_Screen {
+  /* position: relative; */
+  padding-top: 4.7rem;
+  width: 100%;
+  height: 100%;
+  background-color: black;
+  overflow-y: scroll;
+  
+}
+
+.heading_banner_title {
+  font-size: 2rem;
+  font-weight: 600;
+}
+
+.highlight_box {
+  width: 100%;
+  background-color: #E8EBE8;
+  height: 17rem;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.highlight_box2 {
+  z-index: 1;
+  width: 100%;
+  background-color: #FBFBFB;
+  height: 17rem;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.hover_box_wrapper {
+  z-index: 1;
+  position: absolute;
+  top: 30%;
+  bottom: 0;
+  left: 50%;
+  transform: translateX(-50%);
+
+  display: flex;
+}
+
+.hover_box {
+  width: 20rem;
+  height: 20rem;
+  background-color: #D9D9D9;
+  margin: 0 0 0 4rem;
+  margin-bottom: 2rem;
+  border-radius: 20px;
+
+}
+.hover_box_title{
+  padding-top: 50%;
+  font-size: 2rem;
+  font-weight: 600;
+  text-align: center;
+}
+.hover_box_subheading{
+  margin-top: 1rem;
+  font-size: 1rem;
+  font-weight: 400;
+  text-align: center;
+  padding-right: 1rem;
+  padding-left: 1rem;
+
+}
+
+.container {
+  position: relative;
+  width: 100%;
+  height: 100%;
+}

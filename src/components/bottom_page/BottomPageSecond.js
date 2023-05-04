@@ -3,11 +3,11 @@ import scansImage2 from '../../images/Scans 2.png';
 import cortexImage from '../../images/Cerebral Cortex.png';
 // import { useNavigate } from 'react-router-dom';
 
-function BottomPage() {
+function BottomPageSecond() {
     // const navigate = useNavigate()
 
     return (
-        <div className={styles['Bottom-Page']}>
+        <div className={styles['Bottom-Page-Second']}>
             <div className={styles['Bottom-Page-Upper']}>
                 <div className={styles['Bottom-Page-Upper-Left']}>
                     <p className={styles['Sub-Top-Title']}>Cognitive Fitness Level</p>
@@ -18,8 +18,6 @@ function BottomPage() {
                 <img className={styles['Scans-Image-Two']} src={scansImage2} alt="Scans"></img>
             </div>
             <div className={styles['Bottom-Page-Lower']}>
-                <p className={styles['Bottom-Page-Lower-Title']}>Curious how accurate we are about you?</p>
-                <button className={styles['Bottom-Page-Button']}>Take the Test</button>
                 <div className={styles['Lower-Lower']}>
                     <div className={styles['Lower-Left']}>
                         <img className={styles['Lower-Left-Cortex']} src={cortexImage}></img><p className={styles['Lower-Left-Cortex-Name']}>CORTEX</p><p class={styles['Lower-Left-Copyrights']}>Copyright © Event-u All rights reserved</p>
@@ -37,4 +35,4 @@ function BottomPage() {
     );
 }
 
-export default BottomPage;
+export default BottomPageSecond;

@@ -4,6 +4,16 @@
   font-family: "Inter", sans-serif;
   background-color: #f7f3f3;
 }
+
+.Bottom-Page-Second {
+  
+  position: absolute;
+  z-index: -1;
+  margin-top: 1rem;
+  width: 100%;
+  font-family: "Inter", sans-serif;
+  background-color: #f7f3f3;
+}
 .Bottom-Page-Upper {
   display: flex;
   flex-direction: row;
