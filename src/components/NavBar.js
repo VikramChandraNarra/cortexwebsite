@@ -1,7 +1,11 @@
 import styles from './NavBar.module.css'
 import CerebralCortexImage from '../images/Cerebral Cortex.png'
 
-function NavBar() {
+function NavBar(props) {
+    const handleClick = () => {
+        console.log("click 1")
+        props.onClick();
+    };
     return (
         <div className={styles['NavBar']}>
             <div className={styles['Left-NavBar-Div']}>
@@ -12,7 +16,7 @@ function NavBar() {
                 </a>
                 <p>Cognitive Fitness Test</p>
             </div>
-            <button className={styles['NavBar-Test-Button']}>Take the Test</button>
+            <button onClick={handleClick} className={styles['NavBar-Test-Button']}>Take the Test</button>
         </div>
     );
 }
