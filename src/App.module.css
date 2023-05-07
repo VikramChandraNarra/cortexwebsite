@@ -72,7 +72,6 @@
 }
 
 .hover_box_wrapper {
-  z-index: 1;
   position: absolute;
   top: 30%;
   bottom: 0;
