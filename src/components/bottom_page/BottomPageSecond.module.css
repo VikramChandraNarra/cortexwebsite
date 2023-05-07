@@ -1,0 +1,10 @@
+.Bottom-Page {
+  position: absolute;
+  height: 20rem;
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  font-family: "Inter", sans-serif;
+  text-align: center;
+}
