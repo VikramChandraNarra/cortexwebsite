@@ -38,6 +38,78 @@
   font-weight: 300;
   width: 50%;
 }
+.Second_Screen {
+  padding-top: 4.5rem;
+  width: 100%;
+  height: 100%;
+  background-color: black;
+}
+
+.heading_banner_title {
+  position: absolute;
+  top: 20%;
+  font-size: 2rem;
+  font-weight: 600;
+}
+
+.highlight_box {
+  width: 100%;
+  background-color: #e8ebe8;
+  height: 20rem;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.highlight_box2 {
+  z-index: 1;
+  width: 100%;
+  background-color: #fbfbfb;
+  height: 18rem;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.hover_box_wrapper {
+  z-index: 1;
+  position: absolute;
+  top: 30%;
+  bottom: 0;
+  width: 100%;
+  display: flex;
+  justify-content: center;
+}
+
+.hover_box {
+  width: 20rem;
+  height: 18rem;
+  background-color: #d9d9d9;
+  margin: 2rem;
+  margin-bottom: 2rem;
+  border-radius: 20px;
+}
+.hover_box_title {
+  padding-top: 40%;
+  font-size: 2rem;
+  font-weight: 600;
+  text-align: center;
+}
+.hover_box_subheading {
+  margin-top: 1rem;
+  font-size: 1rem;
+  font-weight: 400;
+  text-align: center;
+  padding-right: 1rem;
+  padding-left: 1rem;
+}
+
+.container {
+  position: relative;
+  width: 100%;
+  height: 100%;
+}
+
 @media only screen and (max-width: 480px) {
   .Scans-Image-1 {
     width: 100%;
