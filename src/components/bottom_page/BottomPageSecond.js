@@ -1,5 +1,5 @@
 import styles from './BottomPageSecond.module.css';
-import Gender_Section from '../final_answers/Gender_Section';
+import GenderSection from '../final_answers/Gender_Section';
 import Footer from './Footer';
 
 function BottomPageSecond(prop) {
@@ -10,7 +10,7 @@ function BottomPageSecond(prop) {
 
     return (
         <div className={styles["Bottom-Page"]}>
-            <Gender_Section data={dataHandler}></Gender_Section>
+            <GenderSection data={dataHandler}></GenderSection>
             <Footer show={false}></Footer>
         </div>
     );
