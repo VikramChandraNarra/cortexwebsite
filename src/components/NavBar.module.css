@@ -12,6 +12,7 @@
 .Left-NavBar-Div {
   display: flex;
   align-items: center;
+  justify-content: space-around;
   font-weight: 500;
   font-size: 1.4rem;
 }
@@ -50,4 +51,42 @@
 .NavBar a {
   text-decoration: none;
   color: inherit;
+}
+
+@media only screen and (max-width: 480px) {
+  .NavBar-Test-Button {
+    position: absolute;
+    right: 2%;
+    width: 8rem;
+    height: 2.5rem;
+    font-size: 1rem;
+    color: white;
+    border-radius: 1rem;
+    background-color: black;
+    border: none;
+    cursor: pointer;
+    transition: 0.16s;
+  }
+  .Left-NavBar-Div {
+    position: absolute;
+    left: 2%;
+    width: 40%;
+    justify-content: space-around;
+  }
+  .Cerebral-Cortex {
+    height: 3.2rem;
+    margin: 1rem;
+  }
+  .NavBar p {
+    display: none;
+  }
+}
+
+@media only screen and (max-width: 1024px) and (min-width: 481px) {
+  .Left-NavBar-Div {
+    position: absolute;
+    left: 2%;
+    width: 60%;
+    justify-content: space-around;
+  }
 }
