@@ -1,8 +1,11 @@
 import styles from './BottomPage.module.css';
 import scansImage2 from '../../images/Scans 2.png';
-import cortexImage from '../../images/Cerebral Cortex.png';
+import Footer from './Footer';
+// import { useNavigate } from 'react-router-dom';
 
 function BottomPage() {
+    // const navigate = useNavigate()
+
     return (
         <div className={styles['Bottom-Page']}>
             <div className={styles['Bottom-Page-Upper']}>
@@ -14,22 +17,7 @@ function BottomPage() {
                 </div>
                 <img className={styles['Scans-Image-Two']} src={scansImage2} alt="Scans"></img>
             </div>
-            <div className={styles['Bottom-Page-Lower']}>
-                <p className={styles['Bottom-Page-Lower-Title']}>Curious how accurate we are about you?</p>
-                <button className={styles['Bottom-Page-Button']}>Take the Test</button>
-                <div className={styles['Lower-Lower']}>
-                    <div className={styles['Lower-Left']}>
-                        <img className={styles['Lower-Left-Cortex']} src={cortexImage}></img><p className={styles['Lower-Left-Cortex-Name']}>CORTEX</p><p className={styles['Lower-Left-Copyrights']}>Copyright © Event-u All rights reserved</p>
-                    </div>
-                    <div className={styles['Lower-Right']}>
-                        <p className={styles['Option']}>Features</p>
-                        <p className={styles['Option']}>Features</p>
-                        <p className={styles['Option']}>Features</p>
-                        <p className={styles['Option']}>Features</p>
-                        <button className={styles['Comezar']}>Comenzar</button>
-                    </div>
-                </div>
-            </div>
+            <Footer show={true}></Footer>
         </div >
     );
 }
