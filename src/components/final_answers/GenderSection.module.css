@@ -1,0 +1,52 @@
+.Gender-Section {
+  height: 14rem;
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 1rem;
+}
+
+.Title-Div {
+  width: 100%;
+  font-size: 1.2rem;
+  font-weight: bold;
+}
+.Title-Optional {
+  color: gray;
+}
+.Sub-Title {
+  width: 70%;
+  color: gray;
+}
+.Gender-Dropdown {
+  height: 3rem;
+  width: 25%;
+  padding: 0.5rem;
+  border: 1px solid gray;
+  border-radius: 0.25rem;
+  background-color: #fff;
+  font-size: 1rem;
+  color: gray;
+  cursor: pointer;
+}
+
+.Gender-Dropdown:focus {
+  outline: none;
+  box-shadow: 0 0 0 2px rgba(0, 0, 0, 0.3);
+}
+
+.Button {
+  width: 14rem;
+  height: 3rem;
+  background-color: #7d568f;
+  color: white;
+  border: none;
+  border-radius: 1.2rem;
+  font-size: 1rem;
+  cursor: pointer;
+}
+.Button:hover {
+  background-color: #e7a1ff;
+  color: #222;
+}
