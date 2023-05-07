@@ -1,139 +1,143 @@
 .container {
-    position: absolute;
-    /* background-color: green; */
-    z-index: 0;
-    width: 100%;
+  position: absolute;
+  z-index: 0;
+  width: 100%;
 }
 
 .question {
-    /* position: relative; */
-    /* width: 100%; */
-    width: 70%;
-    margin: auto;
-    height: 15rem;
-    border: #2D9A69;
-    /* border-bottom-color: black; */
-    border-width: 5px;
-
+  width: 70%;
+  margin: auto;
+  height: 15rem;
+  border: #2d9a69;
+  border-width: 5px;
 }
 
-
 .heading_question {
-    padding-top: 1rem;
-    font-size: 1.5rem;
-    /* font-weight: 900; */
-    text-align: center;
-    color: #505868;
+  padding-top: 1rem;
+  font-size: 1.5rem;
+  text-align: center;
+  color: #505868;
 }
 
 .poll {
-    padding-top: 0.5rem;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    /* margin: 5px; */
-    /* color: beige; */
-    /* background-color: blue; */
-
-    
+  padding-top: 0.5rem;
+  display: flex;
+  justify-content: center;
+  align-items: center;
 }
 .agree_text {
-    padding-top: 1rem;
-    font-size: 1.5rem;
-    font-weight: 600;
-    color: #2D9A69;
-    margin: 20px;
+  padding-top: 1rem;
+  font-size: 1.5rem;
+  font-weight: 600;
+  color: #2d9a69;
+  margin: 20px;
 }
 
-.green1, .green2, .green3 {
-    border-radius: 50%;
-    /* color: green; */
-    border: 2px solid green;
-    background-color: transparent;
-    box-shadow: none;
-    margin: 20px;
-
+.green1,
+.green2,
+.green3 {
+  border-radius: 50%;
+  border: 2px solid green;
+  background-color: transparent;
+  box-shadow: none;
+  margin: 20px;
 }
-.purple1, .purple2, .purple3 {
-    border-radius: 50%;
-    margin: 20px;
+.purple1,
+.purple2,
+.purple3 {
+  border-radius: 50%;
+  margin: 20px;
 
-    border: 2.5px solid #7D568F;
+  border: 2.5px solid #7d568f;
 
-
-    background-color: transparent;
+  background-color: transparent;
 }
 
 .disagree_text {
-    padding-top: 1rem;
-    font-size: 1.5rem;
-    font-weight: 600;
-    color: #7D568F;
-    margin: 20px;
-
+  padding-top: 1rem;
+  font-size: 1.5rem;
+  font-weight: 600;
+  color: #7d568f;
+  margin: 20px;
 }
 
-
 .green1 {
-    height: 4.5rem;
-    width: 4.5rem;
-
+  height: 4.5rem;
+  width: 4.5rem;
 }
 
 .green2 {
-    height: 3.5rem;
-    width: 3.5rem;
+  height: 3.5rem;
+  width: 3.5rem;
 }
 
 .green3 {
-    height: 2.5rem;
-    width: 2.5rem;
+  height: 2.5rem;
+  width: 2.5rem;
 }
 
 .gray {
-    margin: 20px;
+  margin: 20px;
 
-    border-radius: 50%;
+  border-radius: 50%;
 
-    border: 2.5px solid gray;
+  border: 2.5px solid gray;
 
-
-    background-color: transparent;
-    height: 2rem;
-    width: 2rem;
-
+  background-color: transparent;
+  height: 2rem;
+  width: 2rem;
 }
 
 .purple1 {
-    height: 4.5rem;
-    width: 4.5rem;
+  height: 4.5rem;
+  width: 4.5rem;
 }
 
 .purple2 {
-    height: 3.5rem;
-    width: 3.5rem;
+  height: 3.5rem;
+  width: 3.5rem;
 }
 
 .purple3 {
-    height: 2.5rem;
-    width: 2.5rem;
+  height: 2.5rem;
+  width: 2.5rem;
 }
 
-.green1:hover, .green2:hover, .green3:hover{
-    background-color: green;
-    color: green;
+.green1:hover,
+.green2:hover,
+.green3:hover {
+  background-color: green;
+  color: green;
 }
-
-.green1:after, .green2:after, .green3:after{
-    background-color: green;
-    color: green;
+.class0,
+.class1,
+.class2 {
+  background-color: green;
+  color: green;
 }
-
+.class3 {
+  background-color: gray;
+  color: gray;
+}
+.class4,
+.class5,
+.class6 {
+  background-color: #7d568f;
+  color: #7d568f;
+}
+.green1:after,
+.green2:after,
+.green3:after {
+  background-color: green;
+  color: green;
+}
 
 .gray:hover {
-    background-color: gray;
+  background-color: gray;
 }
 
-.purple1:hover, .purple2:hover, .purple3:hover{
-    background-color: #7D568F;
+.purple1:hover,
+.purple2:hover,
+.purple3:hover {
+  background-color: #7d568f;
 }
