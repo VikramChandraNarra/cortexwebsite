@@ -165,17 +165,6 @@
     width: 90%;
     font-weight: 500;
   }
-  .Lower-Right p {
-    display: none;
-  }
-  .Lower-Left-Cortex,
-  .Lower-Left-Cortex-Name
-  {
-    display: none;
-  }
-  .Lower-Left-Copyrights{
-    width: 100%;
-  }
   .Scans-Image-Two {
     position: absolute;
     top: 0%;
@@ -194,8 +183,5 @@
   }
   .Bottom-Page-Lower {
     left: 1rem;
-  }
-  .Lower-Right p {
-    display: none;
   }
 }

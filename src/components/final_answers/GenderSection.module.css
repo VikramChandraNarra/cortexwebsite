@@ -50,3 +50,21 @@
   background-color: #e7a1ff;
   color: #222;
 }
+
+
+@media only screen and (max-width: 480px) {
+  .Gender-Dropdown {
+    height: 3rem;
+    width: 75%;
+    padding: 0.5rem;
+    border: 1px solid gray;
+    border-radius: 0.25rem;
+    background-color: #fff;
+    font-size: 1rem;
+    color: gray;
+    cursor: pointer;
+  }
+}
+@media only screen and (max-width: 1024px) and (min-width: 481px) {
+
+}
