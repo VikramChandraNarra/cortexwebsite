@@ -143,12 +143,22 @@
 }
 /* Mobile on portrait mode */
 @media only screen and (max-width: 480px) {
+  .question {
+    width: 70%;
+    margin: auto;
+    height: 15rem;
+    border: #2d9a69;
+    border-width: 5px;
+  }
+
   .poll {
     padding-top: 0.5rem;
+
     display: flex;
     justify-content: center;
     align-items: center;
   }
+
 
   .green1,
   .green2,
@@ -169,7 +179,8 @@
     background-color: transparent;
   }
   .green1 {
-    height: 4rem;
+    height: 75px;
+    width: 50px;
   }
   
   .green2 {
@@ -216,5 +227,4 @@
 }
 /* iPad in portrait mode */
 @media only screen and (max-width: 1024px) and (min-width: 481px) {
-
 }

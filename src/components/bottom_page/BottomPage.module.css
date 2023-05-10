@@ -124,6 +124,8 @@
   border: none;
   box-shadow: 0 0 0.8rem #ffff00;
 }
+
+/* Mobile on portrait mode */
 @media only screen and (max-width: 480px) {
   .Bottom-Page {
     position:absolute;
@@ -173,6 +175,12 @@
     opacity: 0.3;
   }
 }
+
+/* Mobile in landscape mode */
+@media only screen and (max-width: 1024px) and (max-height: 480px) {
+
+}
+
 @media only screen and (max-width: 1024px) and (min-width: 481px) {
   .Bottom-Page {
     position:absolute;
