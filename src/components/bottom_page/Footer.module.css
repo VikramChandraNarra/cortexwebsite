@@ -91,3 +91,34 @@
   border: none;
   box-shadow: 0 0 0.8rem #ffff00;
 }
+/* Mobile in landscape mode */
+@media only screen and (max-width: 1024px) and (max-height: 480px) {
+}
+
+/* Mobile on portrait mode */
+@media only screen and (max-width: 480px) {
+  .Bottom-Page-Lower-Title {
+    font-size: 2.5rem;
+    text-align: center;
+    width: 90%;
+    font-weight: 600;
+  }
+  .Lower-Right p {
+    display: none;
+  }
+  .Lower-Left-Cortex,
+  .Lower-Left-Cortex-Name
+  {
+    display: none;
+  }
+  .Lower-Left-Copyrights{
+    width: 100%;
+  }
+
+}
+/* iPad in portrait mode */
+@media only screen and (max-width: 1024px) and (min-width: 481px) {
+  .Lower-Right p {
+    display: none;
+  }
+}

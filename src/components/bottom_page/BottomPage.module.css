@@ -124,6 +124,8 @@
   border: none;
   box-shadow: 0 0 0.8rem #ffff00;
 }
+
+/* Mobile on portrait mode */
 @media only screen and (max-width: 480px) {
   .Bottom-Page {
     position:absolute;
@@ -165,17 +167,6 @@
     width: 90%;
     font-weight: 500;
   }
-  .Lower-Right p {
-    display: none;
-  }
-  .Lower-Left-Cortex,
-  .Lower-Left-Cortex-Name
-  {
-    display: none;
-  }
-  .Lower-Left-Copyrights{
-    width: 100%;
-  }
   .Scans-Image-Two {
     position: absolute;
     top: 0%;
@@ -184,6 +175,12 @@
     opacity: 0.3;
   }
 }
+
+/* Mobile in landscape mode */
+@media only screen and (max-width: 1024px) and (max-height: 480px) {
+
+}
+
 @media only screen and (max-width: 1024px) and (min-width: 481px) {
   .Bottom-Page {
     position:absolute;
@@ -194,8 +191,5 @@
   }
   .Bottom-Page-Lower {
     left: 1rem;
-  }
-  .Lower-Right p {
-    display: none;
   }
 }
