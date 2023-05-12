@@ -4,13 +4,21 @@
   width: 100%;
 }
 
-.question {
+.questionHighlighted {
   width: 70%;
   margin: auto;
   height: 15rem;
   border: #2d9a69;
   border-width: 5px;
 }
+.questionNotHighlighted {
+    width: 70%;
+    margin: auto;
+    height: 15rem;
+    border: #2d9a69;
+    border-width: 5px;
+    opacity: 0.5;
+  }
 
 .heading_question {
   padding-top: 1rem;

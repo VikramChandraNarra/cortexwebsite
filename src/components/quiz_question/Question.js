@@ -13,9 +13,11 @@ export const Question = (prop) => {
     }
   };
 
+  console.log(prop)
+  
 
   return (
-    <div className={styles['question']}>
+    <div className={prop.isHighlighted == true ? styles['questionHighlighted'] : styles['questionNotHighlighted']}>
       <h1 className={styles['heading_question']}>{prop.prompt}</h1>
       <div className={styles['poll']}>
         <p className={styles['agree_text']}>Agree</p>

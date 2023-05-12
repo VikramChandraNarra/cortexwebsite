@@ -1,8 +1,8 @@
 import styles from './quiz.module.css'
-import React from 'react'
+import React, {useEffect, useState} from 'react'
 import { Question } from './Question';
 
-export const Quiz = () => {
+function Quiz() {
 
     const questions = [
         "I utilize criticism for growth",
@@ -17,26 +17,51 @@ export const Quiz = () => {
         "I can listen without jumping to judgement"
     ];
 
-    const responses = { 0: 0, 1: 0, 2: 0, 3: 0, 4: 0, 5: 0, 6: 0 }
+
+    const [responses, setResponses] = useState({ 0: -1, 1: -1, 2: -1, 3: -1, 4: -1, 5: -1, 6: -1 , 7:-1, 8:-1, 9:-1})
+
+    const [highlightedIndex, setHighlightedIndex] = useState(0)
+
+
+
+    useEffect(() => {
+        // console.log(responses, highlightedIndex)
+    }, [responses, highlightedIndex])
+
+    console.log("rendering....")
 
     const answerHandler = (identifier, index) => {
+        
         if (index === -1) {
-            responses[identifier] = 0;
-            console.log(responses, responses[identifier], identifier, index);
+            
+            const newResponse = responses
+            newResponse[identifier] =  0;
+            setResponses(newResponse)
+            setHighlightedIndex(Object.keys(responses).find(key => responses[key] === -1))
+            // console.log(responses)
         }
         else {
-            responses[identifier] = index;
-            console.log(responses, responses[identifier], identifier, index);
+            const newResponse = responses
+            newResponse[identifier] =  index;
+            setResponses(newResponse)
+            setHighlightedIndex(Object.keys(responses).find(key => responses[key] === -1))
+            // console.log(responses)
         }
+        // console.log(responses)
     }
+    
+    // const highlighted = () => {
 
+    // }
     const answerArray = []
     questions.map((question) => answerArray.push(-1))
 
     return (
         <div className={styles['container']}>
-            {questions.map((question, index) => <Question responseHandler={answerHandler} answerArray={answerArray} identifier={index} key={index} prompt={question} />)}
+            {questions.map((question) => <Question responseHandler={answerHandler} answerArray={answerArray} identifier={questions.indexOf(question)} key={questions.indexOf(question)} prompt={question} isHighlighted={highlightedIndex == questions.indexOf(question)}/>)}
         </div>
 
     )
 }
+
+export default Quiz;
