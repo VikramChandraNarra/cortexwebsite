@@ -113,12 +113,12 @@
 
 .dropdown {
   width: 400px;
-  height: 100vh;
+  /* height: 100vh; */
 }
 
 .dropdown {
   width: 400px;
-  margin: 100px auto;
+  margin: 25px auto;
   position: relative;
 }
 
@@ -154,6 +154,49 @@
 }
 
 .dropdown .dropdown-content .dropdown-item:hover {
-  background: #f4f4f4;
+  background: #FBFBFB;
 }
 
+
+.headerDropdown {
+  margin: auto;
+  text-align: center;
+
+  color: #332;
+  margin: auto;
+
+}
+.gender {
+  height: 300px;
+  width: 600px;
+  background-color: white;
+  /* background-color: green; */
+  /* box-shadow: 0 2px  rgba(0, 0, 0, 0.4); */
+
+}
+
+.subtextDropdown {
+  margin: auto;
+  text-align: center;
+  margin-top: 25px;
+  color: gray;
+
+}
+
+.purpleButton {
+  padding: auto;
+  margin-left: 175px;
+  /* text-align: center; */
+  /* margin: auto; */
+  background-color: #7D568F;
+  width: 250px;
+  height: 60px;
+  border-radius: 800px;
+  color: #fff;
+  font-size: 18px;
+  font-weight: 700;
+  border: none;
+  box-shadow: inset;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.4);
+
+}

@@ -26,7 +26,7 @@ function App() {
         <Route path='/test' element={<SecondScreen/>} />
       </Routes> */}
       {testClicked == 0 && <FirstScreen/>}
-      {testClicked == 1 && <SecondScreen2 />}
+      {testClicked == 1 && <SecondScreen />}
       {/* {testClicked && <SecondScreen />} */}
 
     </div>
@@ -48,13 +48,17 @@ function FirstScreen() {
   )
 }
 
+
+
+
 function SecondScreen() {
+  const [gender, setGender] = useState()
   return (
-    <div className={styles['Second_Screen']}>
-      {/* <div className={styles['highlight_box']}>
+    <>
+      <div className={styles['highlight_box']}>
         <h1 className={styles['heading_banner_title']}>Cognitive Fitness Test</h1>
-      </div> */}
-      {/* <div className={styles['highlight_box2']}></div>
+      </div>
+      <div className={styles['highlight_box2']}></div>
         <div className={styles['hover_box_wrapper']}>
           <div className={styles['hover_box']}>
             <h1 className={styles['hover_box_title']}>Complete the <br /> Test</h1>
@@ -68,25 +72,17 @@ function SecondScreen() {
             <h1 className={styles['hover_box_title']}>Unlock Your Potential</h1>
             <p className={styles['hover_box_subheading']}>Grow into the person you want to be with the Cortex App</p>
         </div>
-      </div> */}
-      {/* <Quiz /> */}
-      <Dropdown />
-      
+      </div>
+      <Quiz />
 
-    </div>
-  )
-}
-
-
-function SecondScreen2() {
-  const [gender, setGender] = useState()
-  return (
-    <>
-    {/* <h1>Your Gender</h1> */}
-    {/* <p>This will determine your avatar in the results screen.</p> */}
-    <Dropdown setGender={setGender}/>
-    {/* <button></button> */}
+      <div className={styles["gender"]}>
+      <h1 className={styles["headerDropdown"]}>Your Gender</h1>
+      <p className={styles["subtextDropdown"]}>This will determine your avatar in the results screen.</p>
+      <Dropdown setGender={setGender}/>
+      <button className={styles["purpleButton"]}>See Results</button>
+      </div>
     </>
+
   )
 }
 
